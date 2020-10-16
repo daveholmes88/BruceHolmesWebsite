@@ -4,11 +4,11 @@ import { Nav, Navbar, Container, NavDropdown } from 'react-bootstrap';
 export default function NavBar() {
 
     return (
-        <Navbar sticky='top' bg="primary" variant="dark">
+        <Navbar sticky='top' bg="dark" variant="dark">
             <Container>
                 <Nav>
                     <Nav.Item>
-                        <Nav.Link href="/"><h3>Bruce Holmes</h3></Nav.Link>
+                        <Nav.Link href="/"><h1>Bruce Holmes</h1></Nav.Link>
                     </Nav.Item>
                 </Nav>
                 <Nav className="mr-sm-2">
