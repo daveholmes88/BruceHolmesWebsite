@@ -14,8 +14,8 @@ export default function NavBar() {
                 <Nav className="mr-sm-2">
                     <Nav.Item>
                         <ButtonGroup size='lg'>
-                            <Nav.Link href="/feldenkrais"><Button variant='outline-light'>Feldenkrais</Button></Nav.Link>
-                            <Nav.Link href="/becoming"><Button variant='outline-light'>Becoming a Square Dance Caller</Button></Nav.Link>
+                            <Nav.Link href="/feldenkrais"><Button style={{ width: 175 }} variant='outline-light'>Feldenkrais</Button></Nav.Link>
+                            <Nav.Link href="/becoming"><Button variant='outline-light'>Square Dance Calling</Button></Nav.Link>
                         </ButtonGroup>
                     </Nav.Item>
                     <NavDropdown alignRight id='nav-dropdown' title={<span><i className="navbar-toggler-icon"></i></span>}>
