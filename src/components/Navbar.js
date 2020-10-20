@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, Navbar, Container, NavDropdown } from 'react-bootstrap';
+import { Nav, Navbar, Container, NavDropdown, Button, ButtonGroup } from 'react-bootstrap';
 
 export default function NavBar() {
 
@@ -13,10 +13,10 @@ export default function NavBar() {
                 </Nav>
                 <Nav className="mr-sm-2">
                     <Nav.Item>
-                        <Nav.Link href="/"><h4>Becoming a Square Dance Caller</h4></Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link href="/"><h4>Feldenkrais</h4></Nav.Link>
+                        <ButtonGroup size='lg'>
+                            <Nav.Link href="/feldenkrais"><Button variant='outline-light'>Feldenkrais</Button></Nav.Link>
+                            <Nav.Link href="/becoming"><Button variant='outline-light'>Becoming a Square Dance Caller</Button></Nav.Link>
+                        </ButtonGroup>
                     </Nav.Item>
                     <NavDropdown alignRight id='nav-dropdown' title={<span><i className="navbar-toggler-icon"></i></span>}>
                         <NavDropdown.Item href="/music">Music</NavDropdown.Item>
@@ -27,7 +27,7 @@ export default function NavBar() {
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="/Triathlon">Triathlon</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="/sciencefiction">Science Fiction</NavDropdown.Item>
+                        <NavDropdown.Item href="/scifi">Science Fiction</NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="/twocents">Two Cents</NavDropdown.Item>
                         <NavDropdown.Divider />

@@ -1,47 +1,71 @@
 import React from "react"
 import ReactPlayer from "react-player"
-import { Container, Carousel, Jumbotron } from 'react-bootstrap';
+import { Container, Carousel, Jumbotron, Card, CardGroup, CardDeck, Row } from 'react-bootstrap';
 
 export default function Home() {
 
     return (
         <div>
             <Jumbotron id='jumbotron'>
+                <Container>
+                    <Row className="justify-content-end">
+                        <a href='/music'>
+                            <Card>
+                                <Card.Img src="MenuMusic.jpg" alt="Card Image" />
+                            </Card>
+                        </a>
+                    </Row>
+                    <Row className="justify-content-end">
+                        <a href='/feldenkrais'>
+                            <Card>
+                                <Card.Img src="MenuFeldenkrais.jpg" alt="Card Image" />
+                            </Card>
+                        </a>
+                    </Row>
+                    <Row className="justify-content-end">
+                        <a href='/becoming'>
+                            <Card >
+                                <Card.Img src="MenuBecoming.jpg" alt="Card Image" />
+                            </Card>
+                        </a>
+                    </Row>
+                    <Row className="justify-content-end">
+                        <a href='/scifi'>
+                            <Card>
+                                <Card.Img src="MenuSciFi.jpg" alt="Card Image" />
+                            </Card>
+                        </a>
+                    </Row>
+                    <Row className="justify-content-end">
+                        <a href='/contact'>
+                            <Card>
+                                <Card.Img src="MenuTouch.jpg" alt="Card Image" />
+                            </Card>
+                        </a>
+                    </Row>
+                    <Row className="justify-content-end">
+                        <a href='/triathlon'>
+                            <Card>
+                                <Card.Img src="MenuTri.jpg" alt="Card Image" />
+                            </Card>
+                        </a>
+                    </Row>
+                    <Row className="justify-content-end">
+                        <a href='/twocents'>
+                            <Card>
+                                <Card.Img src="MenuTwoCents.jpg" alt="Card Image" />
+                            </Card>
+                        </a>
+                    </Row>
+                    <Row className="justify-content-end">
+                        <a href='/dance'>
+                            <Card>
+                                <Card.Img src="MenuDance.jpg" alt="Card Image" />
+                            </Card>
+                        </a>
+                    </Row>
+                </Container>
             </Jumbotron>
-            <Container>
-                <Carousel id="home-carousel">
-                    <Carousel.Item interval={5000}>
-                        <img
-                            className="d-block w-100"
-                            src='BruceJoy.jpg'
-                            alt="Music"
-                        />
-                    </Carousel.Item>
-                    <Carousel.Item interval={5000}>
-                        <img
-                            src='Feldenkrais.jpg'
-                            alt="Feldenkrais"
-                        />
-                    </Carousel.Item>
-                    <Carousel.Item interval={5000}>
-                        <img
-                            src='AnvilCover.jpg'
-                            alt="Anvil"
-                        />
-                    </Carousel.Item>
-                    <Carousel.Item interval={5000}>
-                        <img
-                            className="d-block w-100"
-                            src='Square.jpg'
-                            alt="Square"
-                        />
-                    </Carousel.Item>
-                </Carousel>
-                <br></br>
-                <br></br>
-                <br></br>
-                <ReactPlayer url='https://www.youtube.com/watch?v=pDOJTLH36CU' />
-            </Container>
-        </div>
+        </div >
     )
 }
