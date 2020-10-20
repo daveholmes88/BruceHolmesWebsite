@@ -14,8 +14,8 @@ export default function NavBar() {
                 <Nav className="mr-sm-2">
                     <Nav.Item>
                         <ButtonGroup size='lg'>
-                            <Nav.Link href="/"><Button variant='outline-light'>Feldenkrais</Button></Nav.Link>
-                            <Nav.Link href="/"><Button variant='outline-light'>Becoming a Square Dance Caller</Button></Nav.Link>
+                            <Nav.Link href="/feldenkrais"><Button variant='outline-light'>Feldenkrais</Button></Nav.Link>
+                            <Nav.Link href="/becoming"><Button variant='outline-light'>Becoming a Square Dance Caller</Button></Nav.Link>
                         </ButtonGroup>
                     </Nav.Item>
                     <NavDropdown alignRight id='nav-dropdown' title={<span><i className="navbar-toggler-icon"></i></span>}>
@@ -27,7 +27,7 @@ export default function NavBar() {
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="/Triathlon">Triathlon</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="/sciencefiction">Science Fiction</NavDropdown.Item>
+                        <NavDropdown.Item href="/scifi">Science Fiction</NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="/twocents">Two Cents</NavDropdown.Item>
                         <NavDropdown.Divider />
