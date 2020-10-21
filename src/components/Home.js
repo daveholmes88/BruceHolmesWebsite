@@ -1,6 +1,5 @@
 import React from "react"
-import ReactPlayer from "react-player"
-import { Container, Jumbotron, Card, CardGroup, CardDeck, Row } from 'react-bootstrap';
+import { Container, Jumbotron, Card, Row } from 'react-bootstrap';
 
 export default function Home() {
 
