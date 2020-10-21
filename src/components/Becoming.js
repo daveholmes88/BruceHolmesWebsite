@@ -11,6 +11,7 @@ export default function Becoming() {
                 Buy Now
             </Button>
             <br></br>
+            <h4>This is the book I wish I had when I was learning to call.</h4>
             <img
                 alt='becomingCover'
                 src='BecomingCover.jpg'
