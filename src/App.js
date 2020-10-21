@@ -9,8 +9,10 @@ import Contact from "./components/Contact";
 import Dance from "./components/Dance";
 import Feldenkrais from "./components/Feldenkrais"
 import Home from "./components/Home";
+import Life from "./components/Life"
 import Music from "./components/Music"
 import NavBar from "./components/Navbar";
+import Old from "./components/Old"
 import SciFi from "./components/SciFi"
 import Triathlon from "./components/Triathlon"
 import TwoCents from "./components/TwoCents"
@@ -31,6 +33,8 @@ function App() {
           <Route exact path='/scifi' render={routerProps => <SciFi />} />
           <Route exact path='/triathlon' render={routerProps => <Triathlon />} />
           <Route exact path='/twocents' render={routerProps => <TwoCents />} />
+          <Route exact path='/old' render={routerProps => <Old />} />
+          <Route exact path='/life' render={routerProps => <Life />} />
         </Switch>
       </div>
     </Router>
