@@ -8,13 +8,6 @@ export default function Home() {
             <Jumbotron id='jumbotron'>
                 <Container>
                     <Row className="justify-content-end">
-                        <a href='/music'>
-                            <Card>
-                                <Card.Img src="MenuMusic.jpg" alt="Card Image" />
-                            </Card>
-                        </a>
-                    </Row>
-                    <Row className="justify-content-end">
                         <a href='/feldenkrais'>
                             <Card>
                                 <Card.Img src="MenuFeldenkrais.jpg" alt="Card Image" />
@@ -25,6 +18,13 @@ export default function Home() {
                         <a href='/becoming'>
                             <Card >
                                 <Card.Img src="MenuBecoming.jpg" alt="Card Image" />
+                            </Card>
+                        </a>
+                    </Row>
+                    <Row className="justify-content-end">
+                        <a href='/music'>
+                            <Card>
+                                <Card.Img src="MenuMusic.jpg" alt="Card Image" />
                             </Card>
                         </a>
                     </Row>
