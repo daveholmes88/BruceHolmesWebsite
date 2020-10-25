@@ -14,6 +14,7 @@ import Music from "./components/Music"
 import NavBar from "./components/Navbar";
 import Old from "./components/Old"
 import SciFi from "./components/SciFi"
+import Shopping from "./components/Shopping"
 import Triathlon from "./components/Triathlon"
 import TwoCents from "./components/TwoCents"
 
@@ -35,6 +36,7 @@ function App() {
           <Route exact path='/twocents' render={routerProps => <TwoCents />} />
           <Route exact path='/old' render={routerProps => <Old />} />
           <Route exact path='/life' render={routerProps => <Life />} />
+          <Route exact path='/shopping' render={routerProps => <Shopping />} />
         </Switch>
       </div>
     </Router>

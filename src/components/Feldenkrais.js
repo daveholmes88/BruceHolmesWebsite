@@ -62,10 +62,11 @@ export default function Feldenkrais() {
                     </Card>
                 </Col>
                 <Col>
-                    <h1>The Feldenkrais Lessons: Awareness Through Movement</h1>
+                    <h1>The Feldenkrais Lessons:</h1>
+                    <h1>Awareness Through Movement</h1>
                     <br></br>
-                    <h3>A 48 lesson home study course for $48</h3>
-                    <Button>
+                    <h3 >A 48 lesson home study course for $48</h3>
+                    <Button alignRight>
                         Buy Now
                     </Button>
                     {explained ? <Card>
