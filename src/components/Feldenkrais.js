@@ -22,6 +22,7 @@ export default function Feldenkrais() {
                 <Col sm={3}>
                     <Card border='dark'>
                         <img
+                            class="img-fluid"
                             className="feldenkrais"
                             src='Feldenkrais.jpg'
                             alt='feldenkrais'
