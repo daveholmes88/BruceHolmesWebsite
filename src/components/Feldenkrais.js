@@ -26,7 +26,6 @@ export default function Feldenkrais() {
     const clickExplained = () => {
         setFalse()
         setExplained(true)
-
     }
 
     const clickHistory = () => {
@@ -35,6 +34,7 @@ export default function Feldenkrais() {
     }
 
     const clickIndex = () => {
+        console.log('+++++++++++++++++')
         setFalse()
         setIndex(true)
     }
@@ -75,7 +75,7 @@ export default function Feldenkrais() {
                             src='Feldenkrais.jpg' fluid
                             alt='feldenkrais'
                         />
-                        <h3>The Feldenkrais Method</h3>
+                        <h3 className='text-center'>The Feldenkrais Method</h3>
                         <br></br>
                         <Button variant='dark' onClick={(clickExplained)} >
                             The Method Explained
@@ -85,27 +85,27 @@ export default function Feldenkrais() {
                             History of the Lessons
                         </Button>
                         <br></br>
-                        <Button variant='dark' onClick={{ clickIndex }}>
+                        <Button variant='dark' onClick={(clickIndex)}>
                             A List of the Lessons
                         </Button>
                         <br></br>
-                        <Button variant='dark' onClick={{ clickPress }}>
+                        <Button variant='dark' onClick={(clickPress)}>
                             Press Quotes
                         </Button>
                         <br></br>
-                        <Button variant='dark' onClick={{ clickUser }}>
+                        <Button variant='dark' onClick={(clickUser)}>
                             User Quotes
                         </Button>
                         <br></br>
-                        <Button variant='dark' onClick={{ clickPrice }}>
+                        <Button variant='dark' onClick={(clickPrice)}>
                             Price & Purchase
                         </Button>
                         <br></br>
-                        <Button variant='dark' onClick={{ clickFree }}>
+                        <Button variant='dark' onClick={(clickFree)}>
                             Listen to a Free Lesson
                         </Button>
                         <br></br>
-                        <Button variant='dark' onClick={{ clickArticle }}>
+                        <Button variant='dark' onClick={(clickArticle)}>
                             Runner's World Article
                         </Button>
                         <br></br>
@@ -140,7 +140,7 @@ export default function Feldenkrais() {
                         </Card.Text>
                     </Card> : null}
                     {history ? <Card>
-                        <Card.Title><h2>History of the Lessons</h2></Card.Title>
+                        <Card.Title><h1 className='text-center'>History of the Lessons</h1></Card.Title>
                         <Card.Img src='Feldenkrais.jpg' fluid></Card.Img>
                         <Card.Text>
                             The 48 Feldenkrais Lessons were created over a couple of years by taping lessons live in the classes I was running back in the late 1970s.
@@ -165,8 +165,96 @@ export default function Feldenkrais() {
                             When the cassettes came out, I was about to leave for Tel Aviv to spend a month watching Moshe work with clients. So I took a copy of that first volume with me and gave it to him. A few days later he reported he'd been listening to the tapes, "Very, very good indeed."
                         </Card.Text> 
                     </Card> : null}
-                </Col>
-            </Row>                          
+                    {index ? <Card>
+                     <Card.Title><h2 className='text-center'>A List of the 48 Feldenkrais Lessons</h2></Card.Title>
+                        <Card.Img src='Feldenkrais.jpg' fluid></Card.Img>
+                        <Row>
+                         <Col sm={6}>
+                            <Card.Text>
+                        1. Standing Turning <br></br>
+                                2. Flexors <br></br>
+                                3. Extensors <br></br>
+                                4. Posture <br></br>
+                                5. Pelvic Clock <br></br>
+                                6. Heel Circles <br></br>
+                                7. Shoulder Hip Clocks <br></br>
+                                8. Knees Falling <br></br>
+                                9. Stomach To Sitting <br></br>
+                                10. Lifting Hip <br></br>
+                                11. Connecting Feet Hands <br></br>
+                                12. Lifting Arm <br></br>
+                                13. Lengthening Thru Spine <br></br>
+                                14. Breathing <br></br>
+                                15. Stretching Sides <br></br>
+                                16. Snow Angels <br></br>
+                                17. Sitting Turning <br></br>
+                                18. Stretching Legs <br></br>
+                                19. Freeing Neck <br></br>
+                                20. Hamstrings Hipjoints <br></br>
+                                21. Lifting Head <br></br>
+                                22. Feldenkrais Crawl <br></br>
+                                23. Rotating Foot <br></br>
+                                24. Foot To Head
+                            </Card.Text>
+                         </Col>
+                         <Col sm={6}>
+                             <Card.Text>
+                            25. Knees Falling To Side <br></br>
+                                26. Rolling Head <br></br>
+                                27. Sitting Tilting Pelvis <br></br>
+                                28. Drumming With Your Knees <br></br>
+                                29. Praying <br></br>
+                                30. Sitting Turning <br></br>
+                                31. Rubber Band <br></br>
+                                32. Hand To Chin <br></br>
+                                33. Rolling Side To Back <br></br>
+                                34. Eyes <br></br>
+                                35. Magic Ankles <br></br>
+                                36. Rocking <br></br>
+                                37. Rolling Fists <br></br>
+                                38. Flexing Breathing <br></br>
+                                39. Hands Inverted <br></br>
+                                40. Tilting Legs <br></br>
+                                41. Swivel Legs <br></br>
+                                42. Face Mouth <br></br>
+                                43. Holding Feet <br></br>
+                                44. Shoulders <br></br>
+                                45. Hugging Yourself <br></br>
+                                46. Picking The Grapes <br></br>
+                                47. Lifting Head, Tilting Legs <br></br>
+                                48. Mapping The Body <br></br>
+                            </Card.Text>
+                         </Col>
+                     </Row>
+                    </Card> : null}
+            {press ? <Card>
+                <Card.Text>
+                    Press
+                        </Card.Text>
+            </Card> : null}
+            {user ? <Card>
+                <Card.Text>
+                    User
+                        </Card.Text>
+            </Card> : null}
+            {free ? <Card>
+                <Card.Text>
+                    Free
+                        </Card.Text>
+            </Card> : null}
+            {article ? <Card>
+                <Card.Text>
+                    Article
+                        </Card.Text>
+            </Card> : null}
+            {price ? <Card>
+                <Card.Text>
+                    Price
+                        </Card.Text>
+            </Card> : null}
+
+                </Col>                                                            
+            </Row>                                                     
         </Container>
     )
 }
