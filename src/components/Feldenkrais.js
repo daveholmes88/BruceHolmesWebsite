@@ -10,6 +10,7 @@ export default function Feldenkrais() {
     const [user, setUser] = useState(false)
     const [free, setFree] = useState(false)
     const [article, setArticle] = useState(false)
+    const [price, setPrice] = useState(false)
 
     const setFalse = () => {
         setExplained(false)
@@ -19,6 +20,7 @@ export default function Feldenkrais() {
         setUser(false)
         setFree(false)
         setArticle(false)
+        setPrice(false)
     }
 
     const clickExplained = () => {
@@ -57,6 +59,11 @@ export default function Feldenkrais() {
         setArticle(true)
     }
 
+    const clickPrice = () => {
+        setFalse()
+        setPrice(true)
+    }
+
     return (
         <Container>
             <Row>
@@ -71,15 +78,15 @@ export default function Feldenkrais() {
                         <h3>The Feldenkrais Method</h3>
                         <br></br>
                         <Button variant='dark' onClick={(clickExplained)} >
-                            Explained
+                            The Method Explained
                         </Button>
                         <br></br>
                         <Button variant='dark' onClick={(clickHistory)}>
-                            History
+                            History of the Lessons
                         </Button>
                         <br></br>
                         <Button variant='dark' onClick={{ clickIndex }}>
-                            Index
+                            A List of the Lessons
                         </Button>
                         <br></br>
                         <Button variant='dark' onClick={{ clickPress }}>
@@ -90,8 +97,12 @@ export default function Feldenkrais() {
                             User Quotes
                         </Button>
                         <br></br>
+                        <Button variant='dark' onClick={{ clickPrice }}>
+                            Price & Purchase
+                        </Button>
+                        <br></br>
                         <Button variant='dark' onClick={{ clickFree }}>
-                            Free Lesson
+                            Listen to a Free Lesson
                         </Button>
                         <br></br>
                         <Button variant='dark' onClick={{ clickArticle }}>
@@ -155,7 +166,7 @@ export default function Feldenkrais() {
                         </Card.Text> 
                     </Card> : null}
                 </Col>
-            </Row>                       
+            </Row>                          
         </Container>
     )
 }
