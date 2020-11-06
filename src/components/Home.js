@@ -22,16 +22,16 @@ export default function Home() {
                         </a>
                     </Row>
                     <Row className="justify-content-end">
-                        <a href='/music'>
+                        <a href='/scifi'>
                             <Card>
-                                <Card.Img src="MenuMusic.jpg" alt="Card Image" />
+                                <Card.Img src="MenuSciFi.jpg" alt="Card Image" />
                             </Card>
                         </a>
                     </Row>
                     <Row className="justify-content-end">
-                        <a href='/scifi'>
+                        <a href='/music'>
                             <Card>
-                                <Card.Img src="MenuSciFi.jpg" alt="Card Image" />
+                                <Card.Img src="MenuMusic.jpg" alt="Card Image" />
                             </Card>
                         </a>
                     </Row>
