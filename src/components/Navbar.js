@@ -1,8 +1,8 @@
-import React from 'react';
-import { Nav, Navbar, Container, NavDropdown, Button, ButtonGroup } from 'react-bootstrap';
+import React, { useState } from 'react';
+import { Nav, Navbar, Container, NavDropdown, Button, ButtonGroup, DropdownButton, Dropdown } from 'react-bootstrap';
 
 export default function NavBar() {
-
+    const [show, setShow] = useState(false)
     return (
         <Navbar sticky='top' bg="dark" variant="dark">
             <Container>
@@ -13,27 +13,23 @@ export default function NavBar() {
                 </Nav>
                 <Nav className="mr-sm-2">
                     <Nav.Item>
-                        <ButtonGroup size='lg'>
-                            <Nav.Link href="/feldenkrais"><Button style={{ width: '128px' }} variant='outline-light'>Feldenkrais</Button></Nav.Link>
-                            <Nav.Link href="/becoming"><Button style={{ width: '128px' }} variant='outline-light'>Square Dance Calling</Button></Nav.Link>
+                        <ButtonGroup>
+                            <Nav.Link href="/feldenkrais"><Button style={{ width: '182px' }} variant='outline-light'>Feldenkrais</Button></Nav.Link>
+                            <Nav.Link href="/becoming"><Button style={{ width: '182px' }} variant='outline-light'>Square Dance Calling</Button></Nav.Link>
                         </ButtonGroup>
                     </Nav.Item>
                     <NavDropdown alignRight id='nav-dropdown' title={<span><i className="navbar-toggler-icon"></i></span>}>
-                        <NavDropdown.Item href="/music">Music</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="/feldenkrais">Feldenkrais</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="/dance">Dance</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="/Triathlon">Triathlon</NavDropdown.Item>
-                        <NavDropdown.Divider />
                         <NavDropdown.Item href="/scifi">Science Fiction</NavDropdown.Item>
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item href="/music">Music</NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="/twocents">Two Cents</NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="/contact">Contact</NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="/shopping">Shopping</NavDropdown.Item>
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item href='/movement'>Movement</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
             </Container>
