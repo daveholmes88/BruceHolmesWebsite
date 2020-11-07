@@ -13,10 +13,8 @@ export default function NavBar() {
                 </Nav>
                 <Nav className="mr-sm-2">
                     <Nav.Item>
-                        <ButtonGroup>
-                            <Nav.Link href="/feldenkrais"><Button style={{ width: '182px' }} variant='outline-light'>Feldenkrais</Button></Nav.Link>
-                            <Nav.Link href="/becoming"><Button style={{ width: '182px' }} variant='outline-light'>Square Dance Calling</Button></Nav.Link>
-                        </ButtonGroup>
+                        <Nav.Link href="/Feldenkrais.html">Feldenkrais</Nav.Link>
+                        <Nav.Link href="/becoming">Square Dance Calling</Nav.Link>
                     </Nav.Item>
                     <NavDropdown alignRight id='nav-dropdown' title={<span><i className="navbar-toggler-icon"></i></span>}>
                         <NavDropdown.Item href="/scifi">Science Fiction</NavDropdown.Item>
