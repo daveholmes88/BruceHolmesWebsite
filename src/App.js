@@ -29,7 +29,7 @@ function App() {
           <Route exact path='/becoming' render={routerProps => <Becoming />} />
           <Route exact path='/contact' render={routerProps => <Contact />} />
           <Route exact path='/dance' render={routerProps => <Dance />} />
-          <Route exact path='/feldenkrais' render={routerProps => <Feldenkrais />} />
+          <Route exact path='/Feldenkrais.html' render={routerProps => <Feldenkrais />} />
           <Route exact path='/music' render={routerProps => <Music />} />
           <Route exact path='/scifi' render={routerProps => <SciFi />} />
           <Route exact path='/triathlon' render={routerProps => <Triathlon />} />
