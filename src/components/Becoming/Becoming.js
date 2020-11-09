@@ -1,36 +1,28 @@
-import React, { useState } from 'react'
-import { Container, Button, Modal } from 'react-bootstrap'
+import React from 'react'
+import { Container, Button, Modal, Row, Col, Image } from 'react-bootstrap'
+
+import BecomingIndex from './BecomingIndex'
+import BecomingTitle from './BecomingTitle'
 
 export default function Becoming() {
 
-    const [showTc1, setShowTc1] = useState(false)
-
     return (
         <Container>
+            <Row>
+                <BecomingIndex />
+                <Col>
+                    <BecomingTitle />
+                    <Image
+                        alt='becomingCover'
+                        src='/Becoming/BecomingCover.jpg'
+                    />
+                    <h4>This is the book I wish I had when I was learning to call.</h4>
+                </Col>
+            </Row>
             <Button>
                 Buy Now
             </Button>
             <br></br>
-            <h4>This is the book I wish I had when I was learning to call.</h4>
-            <img
-                alt='becomingCover'
-                src='BecomingCover.jpg'
-            />
-            <h3>Table of Contents</h3>
-            <img
-                alt='tc1'
-                src='BecomingTOC1-650.jpg'
-                onClick={() => setShowTc1(true)}
-            />
-            <Modal
-                show={showTc1}
-                onHide={() => setShowTc1(false)}
-            >
-                <Modal.Header closeButton >
-                    <Modal.Title>Table of Contents Page 1</Modal.Title>
-                </Modal.Header>
-                <img src='BecomingTOC1-650.jpg' />
-            </Modal>
             <h3>Sample Pages</h3>
             <img
                 src='BecomingSample1.jpg'
@@ -49,6 +41,6 @@ export default function Becoming() {
             <Button>
                 Buy Now
             </Button>
-        </Container>
+        </Container >
     )
 }

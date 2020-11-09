@@ -8,7 +8,7 @@ export default function Home() {
             <Jumbotron id='jumbotron'>
                 <Container>
                     <Row className="justify-content-end">
-                        <a href='/feldenkrais'>
+                        <a href='/feldenkrais.html'>
                             <Card>
                                 <Card.Img src="MenuFeldenkrais.jpg" alt="Card Image" />
                             </Card>
