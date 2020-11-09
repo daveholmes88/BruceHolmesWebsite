@@ -21,6 +21,8 @@ export default function Home() {
                                 Sometimes what is needed is to let go of the old restrictions we've placed on ourselves. Poor use of the body can happen because we learned poorly in the beginning (it is, after all, rather hit and miss as we're growing up) or a result of restrictions we adopted because they made sense at the time. If you hurt yourself your body tightens up to protect the damaged location.
                                 The brain puts that holding pattern on automatic. Problem is, when the injury heals, the holding pattern may remain long past its usefulness.
                         </Card.Text>
+                            <Card.Img src='/Feldenkrais/MosheWorking.jpg' fluid='true' />
+                            <br></br>
                             <Card.Text>
                                 Moshe Feldenkrais was a bodyworker. He touched people, made their brain aware of what they were doing poorly and showed them a better way.
                                 He called this Functional Integration. But he also created a collection of floor exercises that a group could do, learning situations that did not require any hands on guidance. He called these exercises Awareness Through Movement. But they're not exercises in the way you did things in gym class. They're discovery environments, lessons.

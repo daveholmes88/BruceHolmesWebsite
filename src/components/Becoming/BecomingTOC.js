@@ -20,7 +20,17 @@ export default function BecomingTOC() {
                     />
                     <Image
                         alt='tc1'
-                        src='BecomingTOC1-650.jpg'
+                        src='/Becoming/BecomingTOC2-650.jpg'
+                        fluid='true'
+                    />
+                    <Image
+                        alt='tc1'
+                        src='/Becoming/BecomingTOC3-650.jpg'
+                        fluid='true'
+                    />
+                    <Image
+                        alt='tc1'
+                        src='/Becoming/BecomingTOC4-650.jpg'
                         fluid='true'
                     />
                 </Col>

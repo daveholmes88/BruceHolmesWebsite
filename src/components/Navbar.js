@@ -14,7 +14,7 @@ export default function NavBar() {
                 <Nav className="mr-sm-2">
                     <Nav.Item>
                         <Nav.Link href="/Feldenkrais.html">Feldenkrais</Nav.Link>
-                        <Nav.Link href="/becoming">Square Dance Calling</Nav.Link>
+                        <Nav.Link href="/Becoming.html">Square Dance Calling</Nav.Link>
                     </Nav.Item>
                     <NavDropdown alignRight id='nav-dropdown' title={<span><i className="navbar-toggler-icon"></i></span>}>
                         <NavDropdown.Item href="/scifi">Science Fiction</NavDropdown.Item>
