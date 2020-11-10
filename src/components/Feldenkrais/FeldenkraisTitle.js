@@ -10,9 +10,7 @@ export default function FeldenkraisTitle() {
             <br></br>
             <h3 className='text-center'>A 48 lesson home study course for $48</h3>
             <div className='text-right'>
-                <Button variant='dark'>
-                    Buy Now
-                    </Button>
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
             </div>
         </div>
     )

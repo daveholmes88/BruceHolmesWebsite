@@ -4,14 +4,19 @@ import { Router, Route, Switch } from 'react-router-dom'
 import history from "./history"
 import "./App.css"
 
+import NavBar from "./components/Navbar";
+import Home from "./components/Home";
+
+import Contact from "./components/Contact";
+
 import Becoming from "./components/Becoming/Becoming";
 import BecomingTOC from "./components/Becoming/BecomingTOC";
 import HowToOrder from "./components/Becoming/HowToOrder";
 import Quotes from "./components/Becoming/Quotes";
 import SamplePages from "./components/Becoming/SamplePages";
 
-import Contact from "./components/Contact";
 import Dance from "./components/Dance";
+import Triathlon from "./components/Triathlon"
 
 import Feldenkrais from "./components/Feldenkrais/Home"
 import History from "./components/Feldenkrais/History"
@@ -22,14 +27,18 @@ import PricePurchase from "./components/Feldenkrais/PricePurchase"
 import FreeLesson from "./components/Feldenkrais/FreeLesson"
 import Article from "./components/Feldenkrais/Article"
 
-import Home from "./components/Home";
-import Life from "./components/Life"
 import Music from "./components/Music"
-import NavBar from "./components/Navbar";
 import Old from "./components/Old"
-import SciFi from "./components/SciFi"
+import Life from "./components/Life"
+
+import AnvilHome from "./components/SciFi/AnvilHome"
+import AuthorQuotes from "./components/SciFi/AuthorQuotes"
+import FanQuotes from "./components/SciFi/FanQuotes"
+import FirstChapter from "./components/SciFi/FirstChapter"
+import SwitchTime from "./components/SciFi/SwitchTime"
+
 import Shopping from "./components/Shopping"
-import Triathlon from "./components/Triathlon"
+
 import TwoCents from "./components/TwoCents"
 
 
@@ -56,11 +65,15 @@ function App() {
           <Route exact path='/Feldenkrais/FeldenkraisFreeLesson.html' render={routerProps => <FreeLesson />} />
           <Route exact path='/Feldenkrais/MosheFeldenkrais.html' render={routerProps => <Article />} />
           <Route exact path='/Music/Music.html' render={routerProps => <Music />} />
-          <Route exact path='/scifi' render={routerProps => <SciFi />} />
+          <Route exact path='/Music/OKRMp3Player/MusicOKR.html' render={routerProps => <Old />} />
+          <Route exact path='/Music/LifeMp3Player/MusicLife.html' render={routerProps => <Life />} />
+          <Route exact path='/SciFi/Anvil.html' render={routerProps => <AnvilHome />} />
+          <Route exact path='/SciFi/AnvilQuotes.html' render={routerProps => <AuthorQuotes />} />
+          <Route exact path='/SciFi/AnvilFanQuotes.html' render={routerProps => <FanQuotes />} />
+          <Route exact path='/SciFi/AnvilChap1.html' render={routerProps => <FirstChapter />} />
+          <Route exact path='/SciFi/Switch.html' render={routerProps => <SwitchTime />} />
           <Route exact path='/triathlon' render={routerProps => <Triathlon />} />
           <Route exact path='/twocents' render={routerProps => <TwoCents />} />
-          <Route exact path='/old' render={routerProps => <Old />} />
-          <Route exact path='/life' render={routerProps => <Life />} />
           <Route exact path='/shopping' render={routerProps => <Shopping />} />
         </Switch>
       </div>
