@@ -17,6 +17,14 @@
     /* height: 1400px */
 }
 
-/* .feldenkrais {
-    max-height: 250px;
-} */
+#anvil-cover {
+    padding-right: 10px;
+}
+
+#moshe-pic {
+    padding-right: 10px
+}
+
+.quote {
+    color: blue
+}

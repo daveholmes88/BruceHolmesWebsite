@@ -22,7 +22,7 @@ export default function Home() {
                         </a>
                     </Row>
                     <Row className="justify-content-end">
-                        <a href='/scifi'>
+                        <a href='/SciFi/Anvil.html'>
                             <Card>
                                 <Card.Img src="MenuSciFi.jpg" alt="Card Image" />
                             </Card>
