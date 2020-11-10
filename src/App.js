@@ -7,8 +7,9 @@ import "./App.css"
 import Becoming from "./components/Becoming/Becoming";
 import BecomingTOC from "./components/Becoming/BecomingTOC";
 import HowToOrder from "./components/Becoming/HowToOrder";
-import Quotes from "./components/Becoming/Quotes"
-import SamplePages from "./components/Becoming/SamplePages"
+import Quotes from "./components/Becoming/Quotes";
+import SamplePages from "./components/Becoming/SamplePages";
+
 import Contact from "./components/Contact";
 import Dance from "./components/Dance";
 
@@ -54,7 +55,7 @@ function App() {
           <Route exact path='/Feldenkrais/FeldenkraisPrice.html' render={routerProps => <PricePurchase />} />
           <Route exact path='/Feldenkrais/FeldenkraisFreeLesson.html' render={routerProps => <FreeLesson />} />
           <Route exact path='/Feldenkrais/MosheFeldenkrais.html' render={routerProps => <Article />} />
-          <Route exact path='/music' render={routerProps => <Music />} />
+          <Route exact path='/Music/Music.html' render={routerProps => <Music />} />
           <Route exact path='/scifi' render={routerProps => <SciFi />} />
           <Route exact path='/triathlon' render={routerProps => <Triathlon />} />
           <Route exact path='/twocents' render={routerProps => <TwoCents />} />

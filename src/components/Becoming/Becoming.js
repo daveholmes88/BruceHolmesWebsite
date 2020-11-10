@@ -17,6 +17,7 @@ export default function Becoming() {
                     <Image
                         alt='becomingCover'
                         src='/Becoming/BecomingCover.jpg'
+                        fluid='true'
                     />
                 </Col>
             </Row>

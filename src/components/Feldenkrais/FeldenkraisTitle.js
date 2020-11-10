@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button } from 'react-bootstrap'
 
 export default function FeldenkraisTitle() {
 
@@ -9,9 +10,9 @@ export default function FeldenkraisTitle() {
             <br></br>
             <h3 className='text-center'>A 48 lesson home study course for $48</h3>
             <div className='text-right'>
-                <button>
+                <Button variant='dark'>
                     Buy Now
-                    </button>
+                    </Button>
             </div>
         </div>
     )
