@@ -7,6 +7,7 @@ export default function Music() {
         <Container>
             <Row>
                 <Col sm={3}>
+                    <br></br>
                     <Card border='dark'>
                         <a href='/music'><h1 className='text-center'>Music</h1></a>
                         <br></br>
@@ -16,61 +17,57 @@ export default function Music() {
                     </Card>
                 </Col>
                 <Col>
-                    <h1 className='text-center'>Music</h1>
-                    <h4 className='text-center'>on over 200 radio stations</h4>
-                    <Carousel>
-                        <Carousel.Item>
-                            <a href="/life">
-                                <img
-                                    className='d-block mx-auto w-50 h-50'
-                                    src="LifeCover.jpg"
-                                    alt="life"
-                                />
-                            </a>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <a href="/old">
-                                <img
-                                    className='d-block mx-auto w-50 h-50'
-                                    src="OldKingReel.jpg"
-                                    alt="old"
-                                />
-                            </a>
-                        </Carousel.Item>
-                    </Carousel>
+                    <h1>Music</h1>
                     <Row>
-                        <Col>
-                            <Image
-                                class='img-fluid'
-                                src='BruceJoyCreamTL.jpg'
-                                alt='brucejoy'
-                            />
+                        <Col sm={5}>
+                            <a href="/life">
+                                <Image
+                                    src="/Music/LifeCover.jpg"
+                                    alt="life"
+                                    fluid='true'
+                                />
+                            </a>
                         </Col>
-                        <Col>
+                        <Col sm={6}>
+                            <a href="/old">
+                                <Image
+                                    src="/Music/OldKingReel.jpg"
+                                    alt="old"
+                                    fluid='true'
+                                />
+                            </a>
+                        </Col>
+                    </Row>
+                    <br></br>
+                    <Row>
+                        <Col sm={6}>
                             <p>
                                 Bruce Holmes looks at our human foibles with a clear eye, no illusions and a loving sense of humor.
                                 Banjo-Jim Foerch,
-                                    <br></br>Grand River Folk Arts Society
-                                    </p>
+                                <br></br>Grand River Folk Arts Society
+                            </p>
                             <p>
                                 “Shine” is one of the best summaries concerning what's really meaningful in life that I have ever heard expressed in a song.
-                                    <br></br>Fred Dolan, WJCU, Ohio
-                                    </p>
+                                <br></br>Fred Dolan, WJCU, Ohio
+                            </p>
+                            <p>
+                                Already a fan, I brought two friends along to Bruce’s show.
+                                They were totally entertained, by Bruce’s fine singing and excellent instrumental work,
+                                but more so by the unique repertoire, which includes some provocative material, delivered in a heartfelt and honest manner. Bruce is engaging, connects with his audience, and is an original in spirit and in song!
+                                <br></br>Lilli Kuzma, Folk Festival, WDCB
+                            </p>
                         </Col>
-                        <Col>
+                        <Col sm={4}>
                             <Image
-                                class='img-fluid'
-                                src='ParchmentAwards.jpg'
+                                fluid='true'
+                                src='/Music/ParchmentAwards.jpg'
                                 alt='awards'
                             />
                         </Col>
+
+
                     </Row>
-                    <p>
-                        Already a fan, I brought two friends along to Bruce’s show.
-                        They were totally entertained, by Bruce’s fine singing and excellent instrumental work,
-                        but more so by the unique repertoire, which includes some provocative material, delivered in a heartfelt and honest manner. Bruce is engaging, connects with his audience, and is an original in spirit and in song!
-                            <br></br>Lilli Kuzma, Folk Festival, WDCB
-                            </p>
+
                 </Col>
             </Row>
         </Container>

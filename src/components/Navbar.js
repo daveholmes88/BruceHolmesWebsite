@@ -21,7 +21,7 @@ export default function NavBar() {
                     <NavDropdown alignRight id='nav-dropdown' title={<span><i className="navbar-toggler-icon"></i></span>}>
                         <NavDropdown.Item href="/scifi">Science Fiction</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="/music">Music</NavDropdown.Item>
+                        <NavDropdown.Item href="/Music/Music.html">Music</NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="/twocents">Two Cents</NavDropdown.Item>
                         <NavDropdown.Divider />

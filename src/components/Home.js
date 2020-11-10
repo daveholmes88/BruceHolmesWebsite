@@ -29,7 +29,7 @@ export default function Home() {
                         </a>
                     </Row>
                     <Row className="justify-content-end">
-                        <a href='/music'>
+                        <a href='/Music/Music.html'>
                             <Card>
                                 <Card.Img src="MenuMusic.jpg" alt="Card Image" />
                             </Card>
