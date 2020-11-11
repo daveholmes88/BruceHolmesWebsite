@@ -43,7 +43,7 @@ export default function Home() {
                         </a>
                     </Row>
                     <Row className="justify-content-end">
-                        <a href='/triathlon'>
+                        <a href='/Triathlon/TriYou.html'>
                             <Card>
                                 <Card.Img src="MenuTri.jpg" alt="Card Image" />
                             </Card>

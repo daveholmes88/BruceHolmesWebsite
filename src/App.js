@@ -8,6 +8,7 @@ import NavBar from "./components/Navbar";
 import Home from "./components/Home";
 
 import JoinMailList from "./components/Contact/JoinMailList";
+import ContactBruce from "./components/Contact/ContactBruce";
 
 import Becoming from "./components/Becoming/Becoming";
 import BecomingTOC from "./components/Becoming/BecomingTOC";
@@ -16,7 +17,38 @@ import Quotes from "./components/Becoming/Quotes";
 import SamplePages from "./components/Becoming/SamplePages";
 
 import Dance from "./components/Dance";
-import Triathlon from "./components/Triathlon"
+
+import MarathonSong from "./components/Triathlon/MarathonSong";
+import TriAthleteNutrition from "./components/Triathlon/TriAthleteNutrition";
+import TriBike from "./components/Triathlon/TriBike";
+import TriCramps from "./components/Triathlon/TriCramps";
+import TriGadgets from "./components/Triathlon/TriGadgets";
+import TriGear from "./components/Triathlon/TriGear";
+import TriKnees from "./components/Triathlon/TriKnees";
+import TriLearning from "./components/Triathlon/TriLearning";
+import TriLengths from "./components/Triathlon/TriLengths";
+import TriNutrition from "./components/Triathlon/TriNutrition";
+import TriOpenWater from "./components/Triathlon/TriOpenWater";
+import TriPicksPans from "./components/Triathlon/TriPicksPans";
+import TriRaceDay from "./components/Triathlon/TriRaceDay";
+import TriRaceNutrition from "./components/Triathlon/TriRaceNutrition";
+import TriResume from "./components/Triathlon/TriResume";
+import TriRules from "./components/Triathlon/TriRules";
+import TriRun from "./components/Triathlon/TriRun";
+import TriShoes from "./components/Triathlon/TriShoes";
+import TriStrength from "./components/Triathlon/TriStrength";
+import TriStretching from "./components/Triathlon/TriStretching";
+import TriSuits from "./components/Triathlon/TriSuits";
+import TriSwim from "./components/Triathlon/TriSwim";
+import TriTraining from "./components/Triathlon/TriTraining";
+import TriWarmup from "./components/Triathlon/TriWarmup";
+import TriWarning from "./components/Triathlon/TriWarning";
+import TriWeightLoss from "./components/Triathlon/TriWeightLoss";
+import TriWetsuits from "./components/Triathlon/TriWetsuits";
+import TriWhy from "./components/Triathlon/TriWhy";
+import TriYou from "./components/Triathlon/TriYou";
+
+
 
 import Feldenkrais from "./components/Feldenkrais/Home"
 import History from "./components/Feldenkrais/History"
@@ -49,13 +81,18 @@ function App() {
         <NavBar />
         <Switch>
           <Route exact path='/' render={routerProps => <Home />} />
+
           <Route exact path='/Becoming.html' render={routerProps => <Becoming />} />
           <Route exact path='/BecomingTOC.html' render={routerProps => <BecomingTOC />} />
           <Route exact path='/BecomingSPages.html' render={routerProps => <SamplePages />} />
           <Route exact path='/BecomingQuotes.html' render={routerProps => <Quotes />} />
           <Route exact path='/BecomingHowToOrder.html' render={routerProps => <HowToOrder />} />
+
           <Route exact path='/Touch/TouchMailList.html' render={routerProps => <JoinMailList />} />
+          <Route exact path='/Touch/TouchContact.html' render={routerProps => <ContactBruce />} />
+
           <Route exact path='/dance' render={routerProps => <Dance />} />
+
           <Route exact path='/Feldenkrais.html' render={routerProps => <Feldenkrais />} />
           <Route exact path='/Feldenkrais/FeldenkraisHistory.html' render={routerProps => <History />} />
           <Route exact path='/Feldenkrais/FeldenkraisLessonList.html' render={routerProps => <Lessons />} />
@@ -64,16 +101,49 @@ function App() {
           <Route exact path='/Feldenkrais/FeldenkraisPrice.html' render={routerProps => <PricePurchase />} />
           <Route exact path='/Feldenkrais/FeldenkraisFreeLesson.html' render={routerProps => <FreeLesson />} />
           <Route exact path='/Feldenkrais/MosheFeldenkrais.html' render={routerProps => <Article />} />
+
           <Route exact path='/Music/Music.html' render={routerProps => <Music />} />
           <Route exact path='/Music/OKRMp3Player/MusicOKR.html' render={routerProps => <Old />} />
           <Route exact path='/Music/LifeMp3Player/MusicLife.html' render={routerProps => <Life />} />
+
           <Route exact path='/SciFi/Anvil.html' render={routerProps => <AnvilHome />} />
           <Route exact path='/SciFi/AnvilQuotes.html' render={routerProps => <AuthorQuotes />} />
           <Route exact path='/SciFi/AnvilFanQuotes.html' render={routerProps => <FanQuotes />} />
           <Route exact path='/SciFi/AnvilChap1.html' render={routerProps => <FirstChapter />} />
           <Route exact path='/SciFi/Switch.html' render={routerProps => <SwitchTime />} />
-          <Route exact path='/triathlon' render={routerProps => <Triathlon />} />
+
+          <Route exact path='/Triathlon/Marathon/MarathonSong.html' render={routerProps => <MarathonSong />} />
+          <Route exact path='/Triathlon/TriAthleteNutrition.html' render={routerProps => <TriAthleteNutrition />} />
+          <Route exact path='/Triathlon/TriBike.html' render={routerProps => <TriBike />} />
+          <Route exact path='/Triathlon/TriCramps.html' render={routerProps => <TriCramps />} />
+          <Route exact path='/Triathlon/TriGadgets.html' render={routerProps => <TriGadgets />} />
+          <Route exact path='/Triathlon/TriGear.html' render={routerProps => <TriGear />} />
+          <Route exact path='/Triathlon/TriKnees.html' render={routerProps => <TriKnees />} />
+          <Route exact path='/Triathlon/TriLearning.html' render={routerProps => <TriLearning />} />
+          <Route exact path='/Triathlon/TriLengths.html' render={routerProps => <TriLengths />} />
+          <Route exact path='/Triathlon/TriNutrition.html' render={routerProps => <TriNutrition />} />
+          <Route exact path='/Triathlon/TriOpenWater.html' render={routerProps => <TriOpenWater />} />
+          <Route exact path='/Triathlon/TriPicksPans.html' render={routerProps => <TriPicksPans />} />
+          <Route exact path='/Triathlon/TriRaceDay.html' render={routerProps => <TriRaceDay />} />
+          <Route exact path='/Triathlon/TriRaceNutrition.html' render={routerProps => <TriRaceNutrition />} />
+          <Route exact path='/Triathlon/TriResume.html' render={routerProps => <TriResume />} />
+          <Route exact path='/Triathlon/TriRules.html' render={routerProps => <TriRules />} />
+          <Route exact path='/Triathlon/TriRun.html' render={routerProps => <TriRun />} />
+          <Route exact path='/Triathlon/TriShoes.html' render={routerProps => <TriShoes />} />
+          <Route exact path='/Triathlon/TriStrength.html' render={routerProps => <TriStrength />} />
+          <Route exact path='/Triathlon/TriStretching.html' render={routerProps => <TriStretching />} />
+          <Route exact path='/Triathlon/TriSuits.html' render={routerProps => <TriSuits />} />
+          <Route exact path='/Triathlon/TriSwim.html' render={routerProps => <TriSwim />} />
+          <Route exact path='/Triathlon/TriTraining.html' render={routerProps => <TriTraining />} />
+          <Route exact path='/Triathlon/TriWarmup.html' render={routerProps => <TriWarmup />} />
+          <Route exact path='/Triathlon/TriWarning.html' render={routerProps => <TriWarning />} />
+          <Route exact path='/Triathlon/TriWeightLoss.html' render={routerProps => <TriWeightLoss />} />
+          <Route exact path='/Triathlon/TriWet.html' render={routerProps => <TriWetsuits />} />
+          <Route exact path='/Triathlon/TriWhy.html' render={routerProps => <TriWhy />} />
+          <Route exact path='/Triathlon/TriYou.html' render={routerProps => <TriYou />} />
+
           <Route exact path='/twocents' render={routerProps => <TwoCents />} />
+
           <Route exact path='/shopping' render={routerProps => <Shopping />} />
         </Switch>
       </div>
