@@ -7,7 +7,7 @@ import "./App.css"
 import NavBar from "./components/Navbar";
 import Home from "./components/Home";
 
-import Contact from "./components/Contact";
+import JoinMailList from "./components/Contact/JoinMailList";
 
 import Becoming from "./components/Becoming/Becoming";
 import BecomingTOC from "./components/Becoming/BecomingTOC";
@@ -54,7 +54,7 @@ function App() {
           <Route exact path='/BecomingSPages.html' render={routerProps => <SamplePages />} />
           <Route exact path='/BecomingQuotes.html' render={routerProps => <Quotes />} />
           <Route exact path='/BecomingHowToOrder.html' render={routerProps => <HowToOrder />} />
-          <Route exact path='/contact' render={routerProps => <Contact />} />
+          <Route exact path='/Touch/TouchMailList.html' render={routerProps => <JoinMailList />} />
           <Route exact path='/dance' render={routerProps => <Dance />} />
           <Route exact path='/Feldenkrais.html' render={routerProps => <Feldenkrais />} />
           <Route exact path='/Feldenkrais/FeldenkraisHistory.html' render={routerProps => <History />} />
