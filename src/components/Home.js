@@ -36,7 +36,7 @@ export default function Home() {
                         </a>
                     </Row>
                     <Row className="justify-content-end">
-                        <a href='/contact'>
+                        <a href='/Touch/TouchMailList.html'>
                             <Card>
                                 <Card.Img src="MenuTouch.jpg" alt="Card Image" />
                             </Card>

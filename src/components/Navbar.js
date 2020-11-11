@@ -25,7 +25,7 @@ export default function NavBar() {
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="/twocents">Two Cents</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="/contact">Contact</NavDropdown.Item>
+                        <NavDropdown.Item href="/Touch/TouchMailList.html">Contact</NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="/shopping">Shopping</NavDropdown.Item>
                         <NavDropdown.Divider />
