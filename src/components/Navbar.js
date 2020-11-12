@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { Nav, Navbar, Container, NavDropdown, Button, ButtonGroup, DropdownButton, Dropdown } from 'react-bootstrap';
+import React from 'react';
+import { Nav, Navbar, Container, NavDropdown } from 'react-bootstrap';
 
 export default function NavBar() {
-    const [show, setShow] = useState(false)
+
     return (
         <Navbar sticky='top' bg="dark" variant="dark">
             <Container>

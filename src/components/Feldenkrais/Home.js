@@ -27,7 +27,7 @@ export default function Home() {
                             <Row>
                                 <Col>
                                     <div style={{ width: '50%' }}>
-                                        <Card.Img src='/Feldenkrais/MosheWorking.jpg' fluid='true' align='left' id='moshe-pic' />
+                                        <Card.Img src='/Feldenkrais/MosheWorking.jpg' fluid='true' align='left' id='moshe-pic' class='picture' />
                                     </div>
                                     <div class='pull-right'>
                                         <Card.Text>

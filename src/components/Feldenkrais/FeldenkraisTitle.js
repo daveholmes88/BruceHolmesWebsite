@@ -1,10 +1,10 @@
 import React from 'react'
-import { Button } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 
 export default function FeldenkraisTitle() {
 
     return (
-        <div>
+        <Container>
             <h1 className='text-center'>The Feldenkrais Lessons:</h1>
             <h1 className='text-right'>Awareness Through Movement</h1>
             <br></br>
@@ -12,6 +12,6 @@ export default function FeldenkraisTitle() {
             <div className='text-right'>
                 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
             </div>
-        </div>
+        </Container>
     )
 }
