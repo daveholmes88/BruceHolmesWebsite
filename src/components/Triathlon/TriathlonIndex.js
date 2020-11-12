@@ -7,9 +7,9 @@ export default function TriathlonIndex() {
         <Col sm={3}>
             <Card border='dark'>
                 <Image
-                    src='/Feldenkrais/Feldenkrais.jpg'
+                    src='/Triathlon/USAT209W.jpg'
                     fluid='true'
-                    alt='feldenkrais'
+                    alt='TriCoach'
                 />
                 <Container>
                     <a href='/Triathlon/TriWhy.html'>Why Exercise</a>

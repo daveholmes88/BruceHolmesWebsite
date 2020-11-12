@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Card, Col, Image } from 'react-bootstrap'
+import { Container, Row, Card, Col } from 'react-bootstrap'
 
 import FeldenkraisIndex from './FeldenkraisIndex'
 import FeldenkraisTitle from './FeldenkraisTitle'

@@ -30,7 +30,7 @@ export default function FirstChapter() {
                         </p>
                     <div className='text-center'>
                         <Image
-                            alt='becomingCover'
+                            alt='Constitution'
                             src='/Constitution.jpg'
                             fluid='true'
                         />

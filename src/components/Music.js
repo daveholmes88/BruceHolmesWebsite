@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Carousel, Row, Col, Card, Image } from 'react-bootstrap';
+import { Container, Row, Col, Card, Image } from 'react-bootstrap';
 
 export default function Music() {
 
