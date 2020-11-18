@@ -59,7 +59,10 @@ import PricePurchase from "./components/Feldenkrais/PricePurchase"
 import FreeLesson from "./components/Feldenkrais/FreeLesson"
 import Article from "./components/Feldenkrais/Article"
 
-import Music from "./components/Music"
+import Music from "./components/Music/Music"
+import MusicPhoto from "./components/Music/MusicPhoto"
+import PressBio from "./components/Music/PressBio"
+import Radio from "./components/Music/Radio"
 import Old from "./components/Old"
 import Life from "./components/Life"
 
@@ -105,6 +108,9 @@ function App() {
           <Route exact path='/Music/Music.html' render={routerProps => <Music />} />
           <Route exact path='/Music/OKRMp3Player/MusicOKR.html' render={routerProps => <Old />} />
           <Route exact path='/Music/LifeMp3Player/MusicLife.html' render={routerProps => <Life />} />
+          <Route exact path='/Music/MusicPhotos.html' render={routerProps => <MusicPhoto />} />
+          <Route exact path='/Music/PressBio.html' render={routerProps => <PressBio />} />
+          <Route exact path='/Music/MusicRadio.html' render={routerProps => <Radio />} />
 
           <Route exact path='/SciFi/Anvil.html' render={routerProps => <AnvilHome />} />
           <Route exact path='/SciFi/AnvilQuotes.html' render={routerProps => <AuthorQuotes />} />
