@@ -24,3 +24,8 @@
 .quote {
     color: blue
 }
+
+.carousel {
+    max-height: '10%';
+    overflow: hidden;
+  }

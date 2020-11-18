@@ -1,21 +1,14 @@
 import React from 'react';
 import { Container, Row, Col, Card, Image } from 'react-bootstrap';
 
+import MusicIndex from './MusicIndex'
+
 export default function Music() {
 
     return (
         <Container>
             <Row>
-                <Col sm={3}>
-                    <br></br>
-                    <Card border='dark'>
-                        <a href='/Music/Music.html'><h1 className='text-center'>Music</h1></a>
-                        <br></br>
-                        <h2 className='text-center'>Albums</h2>
-                        <a href='/Music/LifeMp3Player/MusicLife.html'><h4 className='text-center'>Life's an Intelligence Test</h4></a>
-                        <a href='/Music/OKRMp3Player/MusicOKR.html'><h4 className='text-center'>The Old King's Reel</h4></a>
-                    </Card>
-                </Col>
+                <MusicIndex />
                 <Col>
                     <h1>Music</h1>
                     <Row>
