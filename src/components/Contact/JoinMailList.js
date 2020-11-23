@@ -93,6 +93,7 @@ export default function Contact() {
                                     <option value='music'>Music</option>
                                     <option value='triathlon'>Triathlon</option>
                                     <option value='science-fiction'>Science Fiction</option>
+                                    <option value='square-dance'>Square Dance</option>
                                 </Form.Control>
                             </Form.Group>
                         </Form.Row>

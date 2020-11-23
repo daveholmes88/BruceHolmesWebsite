@@ -18,7 +18,7 @@ export default function LifeIndex() {
                     <a href='/Music/ReviewWesternSprings.html'>Western Springs</a><br></br>
                     <a href='/Music/ReviewEvanston.html'>Evanston Review</a><br></br>
                     <br></br>
-                    <a href='http://brucetholmes.com/Music/Music.html'><h4 className='text-center'>Return to Music</h4></a>
+                    <a href='/Music/Music.html'><h4 className='text-center'>Return to Music</h4></a>
                 </Container>
             </Card>
         </Col >

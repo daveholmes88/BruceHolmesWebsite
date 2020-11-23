@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Carousel, Image, CardImg } from 'react-bootstrap';
+import { Container, Row, Col, Carousel, } from 'react-bootstrap';
 
 import MusicIndex from './MusicIndex'
 
@@ -18,6 +18,7 @@ export default function MusicPhoto() {
                                 className="d-block w-100 h-50"
                                 src='/Music/HSAtCam.jpg'
                                 fluid='true'
+                                alt='HSAtCam'
                             />
                             <Carousel.Caption>
                                 <h3>Studio Portraits by Jennifer Gerard</h3>
@@ -28,6 +29,7 @@ export default function MusicPhoto() {
                                 className="d-block w-100 h-50"
                                 src='/Music/HSPlaying.jpg'
                                 fluid='true'
+                                alt='HSPlaying'
                             />
                             <Carousel.Caption>
                                 <h3>Studio Portraits by Jennifer Gerard</h3>
@@ -38,6 +40,7 @@ export default function MusicPhoto() {
                                 className="d-block w-100 h-50"
                                 src='/Music/HSSinging.jpg'
                                 fluid='true'
+                                alt='HSSinging'
                             />
                             <Carousel.Caption>
                                 <h3>Studio Portraits by Jennifer Gerard</h3>
@@ -48,6 +51,7 @@ export default function MusicPhoto() {
                                 className="d-block w-100 h-50"
                                 src='/Music/HSStool.jpg'
                                 fluid='true'
+                                alt='HSStool'
                             />
                             <Carousel.Caption>
                                 <h3>Studio Portraits by Jennifer Gerard</h3>

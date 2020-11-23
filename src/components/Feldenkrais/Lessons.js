@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Row, Col, Container } from 'react-bootstrap'
+import { Image, Row, Col, Container } from 'react-bootstrap'
 
 import FeldenkraisIndex from './FeldenkraisIndex'
 import FeldenkraisTitle from './FeldenkraisTitle'
@@ -12,14 +12,14 @@ export default function Lessons() {
                 <FeldenkraisIndex />
                 <Col>
                     <FeldenkraisTitle />
-                    <Card>
-                        <Container>
-                            <Card.Title><h2 className='text-center'>A List of the 48 Feldenkrais Lessons</h2></Card.Title>
-                            <Card.Img src='Feldenkrais.jpg' fluid='true'></Card.Img>
-                            <Row>
-                                <Col sm={6}>
-                                    <Card.Text>
-                                        1. Standing Turning <br></br>
+                    <h2 className='text-center'>A List of the 48 Feldenkrais Lessons</h2>
+                    <div className='text-center'>
+                        <Image src='Feldenkrais.jpg' fluid='true' />
+                    </div>
+                    <Row>
+                        <Col sm={6}>
+                            <p>
+                                1. Standing Turning <br></br>
                                 2. Flexors <br></br>
                                 3. Extensors <br></br>
                                 4. Posture <br></br>
@@ -43,11 +43,11 @@ export default function Lessons() {
                                 22. Feldenkrais Crawl <br></br>
                                 23. Rotating Foot <br></br>
                                 24. Foot To Head
-                            </Card.Text>
-                                </Col>
-                                <Col sm={6}>
-                                    <Card.Text>
-                                        25. Knees Falling To Side <br></br>
+                            </p>
+                        </Col>
+                        <Col sm={6}>
+                            <p>
+                                25. Knees Falling To Side <br></br>
                                 26. Rolling Head <br></br>
                                 27. Sitting Tilting Pelvis <br></br>
                                 28. Drumming With Your Knees <br></br>
@@ -71,13 +71,11 @@ export default function Lessons() {
                                 46. Picking The Grapes <br></br>
                                 47. Lifting Head, Tilting Legs <br></br>
                                 48. Mapping The Body <br></br>
-                                    </Card.Text>
-                                </Col>
-                            </Row>
-                        </Container>
-                    </Card>
+                            </p>
+                        </Col>
+                    </Row>
                 </Col>
-            </Row>
-        </Container>
+            </Row >
+        </Container >
     )
 }
