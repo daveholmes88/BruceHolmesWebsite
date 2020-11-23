@@ -10,7 +10,7 @@ export default function ContactBruce() {
             <Row>
                 <ContactIndex />
                 <Col>
-                    <h1>Contact Bruce</h1>
+                    <h1>My first name  at Brucetholmes.com</h1>
                 </Col>
             </Row>
         </Container>
