@@ -33,29 +33,33 @@ export default function Music() {
                     </Row>
                     <br></br>
                     <Row>
-                        <Col sm={6}>
-                            <p> <span class='quote'>
-                                Bruce Holmes looks at our human foibles with a clear eye, no illusions and a loving sense of humor.
+                        <Col>
+                            <div style={{ width: '50%' }}>
+                                <Image
+                                    fluid='true'
+                                    src='/Music/ParchmentAwards.jpg'
+                                    alt='awards'
+                                    align='left'
+                                    className='picture'
+                                />
+                            </div>
+                            <div class='pull-right'>
+                                <p> <span class='quote'>
+                                    Bruce Holmes looks at our human foibles with a clear eye, no illusions and a loving sense of humor.
                                 </span><br></br>Banjo-Jim Foerch,
                                 Grand River Folk Arts Society
                             </p>
-                            <p> <span class='quote'>
-                                “Shine” is one of the best summaries concerning what's really meaningful in life that I have ever heard expressed in a song.
+                                <p> <span class='quote'>
+                                    “Shine” is one of the best summaries concerning what's really meaningful in life that I have ever heard expressed in a song.
                                 </span><br></br>Fred Dolan, WJCU, Ohio
                             </p>
-                            <p> <span class='quote'>
-                                Already a fan, I brought two friends along to Bruce’s show.
-                                They were totally entertained, by Bruce’s fine singing and excellent instrumental work,
-                                but more so by the unique repertoire, which includes some provocative material, delivered in a heartfelt and honest manner. Bruce is engaging, connects with his audience, and is an original in spirit and in song!
+                                <p> <span class='quote'>
+                                    Already a fan, I brought two friends along to Bruce’s show.
+                                    They were totally entertained, by Bruce’s fine singing and excellent instrumental work,
+                                    but more so by the unique repertoire, which includes some provocative material, delivered in a heartfelt and honest manner. Bruce is engaging, connects with his audience, and is an original in spirit and in song!
                                 </span><br></br>Lilli Kuzma, Folk Festival, WDCB
                             </p>
-                        </Col>
-                        <Col sm={4}>
-                            <Image
-                                fluid='true'
-                                src='/Music/ParchmentAwards.jpg'
-                                alt='awards'
-                            />
+                            </div>
                         </Col>
 
 
