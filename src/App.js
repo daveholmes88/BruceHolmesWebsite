@@ -32,7 +32,6 @@ import TriOpenWater from "./components/Triathlon/TriOpenWater";
 import TriPicksPans from "./components/Triathlon/TriPicksPans";
 import TriRaceDay from "./components/Triathlon/TriRaceDay";
 import TriRaceNutrition from "./components/Triathlon/TriRaceNutrition";
-import TriResume from "./components/Triathlon/TriResume";
 import TriRules from "./components/Triathlon/TriRules";
 import TriRun from "./components/Triathlon/TriRun";
 import TriShoes from "./components/Triathlon/TriShoes";
@@ -47,8 +46,6 @@ import TriWeightLoss from "./components/Triathlon/TriWeightLoss";
 import TriWetsuits from "./components/Triathlon/TriWetsuits";
 import TriWhy from "./components/Triathlon/TriWhy";
 import TriYou from "./components/Triathlon/TriYou";
-
-
 
 import Feldenkrais from "./components/Feldenkrais/Home"
 import History from "./components/Feldenkrais/History"
@@ -65,6 +62,7 @@ import PressBio from "./components/Music/PressBio"
 import Radio from "./components/Music/Radio"
 import Old from "./components/Music/Old"
 import Life from "./components/Music/Life"
+import StoryOf from "./components/Music/StoryOf"
 
 import AnvilHome from "./components/SciFi/AnvilHome"
 import AuthorQuotes from "./components/SciFi/AuthorQuotes"
@@ -111,6 +109,7 @@ function App() {
           <Route exact path='/Music/MusicPhotos.html' render={routerProps => <MusicPhoto />} />
           <Route exact path='/Music/PressBio.html' render={routerProps => <PressBio />} />
           <Route exact path='/Music/MusicRadio.html' render={routerProps => <Radio />} />
+          <Route exact path='/Music/MusicLifeStory.html' render={routerProps => <StoryOf />} />
 
           <Route exact path='/SciFi/Anvil.html' render={routerProps => <AnvilHome />} />
           <Route exact path='/SciFi/AnvilQuotes.html' render={routerProps => <AuthorQuotes />} />
@@ -132,7 +131,6 @@ function App() {
           <Route exact path='/Triathlon/TriPicksPans.html' render={routerProps => <TriPicksPans />} />
           <Route exact path='/Triathlon/TriRaceDay.html' render={routerProps => <TriRaceDay />} />
           <Route exact path='/Triathlon/TriRaceNutrition.html' render={routerProps => <TriRaceNutrition />} />
-          <Route exact path='/Triathlon/TriResume.html' render={routerProps => <TriResume />} />
           <Route exact path='/Triathlon/TriRules.html' render={routerProps => <TriRules />} />
           <Route exact path='/Triathlon/TriRun.html' render={routerProps => <TriRun />} />
           <Route exact path='/Triathlon/TriShoes.html' render={routerProps => <TriShoes />} />

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Card } from 'react-bootstrap'
+import { Container, Row, Col, Image } from 'react-bootstrap'
 
 import FeldenkraisIndex from './FeldenkraisIndex'
 import FeldenkraisTitle from './FeldenkraisTitle'
@@ -25,7 +25,7 @@ export default function Home() {
                     <Row>
                         <Col>
                             <div style={{ width: '50%' }}>
-                                <Card.Img src='/Feldenkrais/MosheWorking.jpg' fluid='true' align='left' id='moshe-pic' class='picture' />
+                                <Image src='/Feldenkrais/MosheWorking.jpg' fluid='true' align='left' id='moshe-pic' class='picture' />
                             </div>
                             <div class='pull-right'>
                                 <p>

@@ -70,8 +70,6 @@ export default function TriathlonIndex() {
                     <br></br>
                     <a href="TriWarning.html">Warning Label</a>
                     <br></br>
-                    <a href="TriResume.html">Coaching Resume</a>
-                    <br></br>
                     <a href="Marathon/MarathonSong.html" target="_self">Marathon</a>
                     <br></br>
                 </Container>

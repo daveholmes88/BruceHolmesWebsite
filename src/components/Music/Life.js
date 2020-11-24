@@ -8,8 +8,6 @@ import LifeIndex from './LifeIndex'
 
 export default function Life() {
 
-    const source = ['/Music/LifeSongs/Angels.mp3', '/Music/LifeSongs/Beautiful.mp3']
-
     const audioTrackList: Array<TrackType> = [
         {
             src: '/Music/LifeSongs/IDo.mp3',
@@ -144,6 +142,3 @@ export default function Life() {
         </Container>
     )
 }
-
-{/* 
-                    <ReactPlayer url='https://www.youtube.com/watch?v=u0FpVF2xrZ4' /> */}
