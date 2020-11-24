@@ -27,6 +27,8 @@ export default function NavBar() {
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="/Touch/TouchMailList.html">Contact</NavDropdown.Item>
                         <NavDropdown.Divider />
+                        <NavDropdown.Item href='/Triathlon/TriYou.html'>Triathlon</NavDropdown.Item>
+                        <NavDropdown.Divider />
                         <NavDropdown.Item href="/shopping">Shopping</NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href='/movement'>Movement</NavDropdown.Item>

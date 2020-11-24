@@ -29,3 +29,10 @@
     max-height: '10%';
     overflow: hidden;
   }
+
+.musicImages {
+    max-height: 335px;
+    object-fit: cover;
+    width: '100%';
+    overflow: auto;
+}
