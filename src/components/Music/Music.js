@@ -12,27 +12,32 @@ export default function Music() {
                 <Col>
                     <h1>Music</h1>
                     <Row>
-                        <Col sm={5}>
-                            <a href="/Music/LifeMp3Player/MusicLife.html" >
-                                <Image
-                                    src="/Music/LifeCover.jpg"
-                                    alt="life"
-                                    fluid='true'
-                                    style={{ height: '70%' }}
-                                />
-                            </a>
+                        <Col>
+                            <div className='text-right'>
+                                <a href="/Music/LifeMp3Player/MusicLife.html" >
+                                    <Image
+                                        src="/Music/Life360.jpg"
+                                        alt="life"
+                                        fluid='true'
+                                        className='musicImages'
+                                    />
+                                </a>
+                            </div>
                         </Col>
-                        <Col sm={6}>
-                            <a href="/Music/OKRMp3Player/MusicOKR.html" >
-                                <Image
-                                    src="/Music/OldKingReel.jpg"
-                                    alt="old"
-                                    fluid='true'
-                                    style={{ height: '70%' }}
-                                />
-                            </a>
+                        <Col>
+                            <div className='text-left'>
+                                <a href="/Music/OKRMp3Player/MusicOKR.html" >
+                                    <Image
+                                        src="/Music/BHolmes72dpiOKR.jpg"
+                                        alt="old"
+                                        fluid='true'
+                                        className='musicImages'
+                                    />
+                                </a>
+                            </div>
                         </Col>
                     </Row>
+                    <br></br>
                     <Row>
                         <Col>
                             <div style={{ width: '50%' }}>

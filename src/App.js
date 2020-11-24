@@ -60,9 +60,15 @@ import Music from "./components/Music/Music"
 import MusicPhoto from "./components/Music/MusicPhoto"
 import PressBio from "./components/Music/PressBio"
 import Radio from "./components/Music/Radio"
-import Old from "./components/Music/Old"
-import Life from "./components/Music/Life"
-import StoryOf from "./components/Music/StoryOf"
+import Life from "./components/Music/Life/Life"
+import StoryOf from "./components/Music/Life/StoryOf"
+import ConcertPhotos from "./components/Music/Life/ConcertPhotos"
+import WesternSprings from "./components/Music/Life/WesternSprings"
+import EvanstonReview from "./components/Music/Life/EvanstonReview"
+import Old from "./components/Music/Old/Old"
+import RickLibrarian from "./components/Music/Old/RickLibrarian"
+import ChicagoTribune from "./components/Music/Old/ChicagoTribune"
+
 
 import AnvilHome from "./components/SciFi/AnvilHome"
 import AuthorQuotes from "./components/SciFi/AuthorQuotes"
@@ -104,12 +110,17 @@ function App() {
           <Route exact path='/Feldenkrais/MosheFeldenkrais.html' render={routerProps => <Article />} />
 
           <Route exact path='/Music/Music.html' render={routerProps => <Music />} />
-          <Route exact path='/Music/OKRMp3Player/MusicOKR.html' render={routerProps => <Old />} />
-          <Route exact path='/Music/LifeMp3Player/MusicLife.html' render={routerProps => <Life />} />
           <Route exact path='/Music/MusicPhotos.html' render={routerProps => <MusicPhoto />} />
           <Route exact path='/Music/PressBio.html' render={routerProps => <PressBio />} />
           <Route exact path='/Music/MusicRadio.html' render={routerProps => <Radio />} />
+          <Route exact path='/Music/LifeMp3Player/MusicLife.html' render={routerProps => <Life />} />
           <Route exact path='/Music/MusicLifeStory.html' render={routerProps => <StoryOf />} />
+          <Route exact path='/Music/MusicConcert2005.html' render={routerProps => <ConcertPhotos />} />
+          <Route exact path='/Music/ReviewWesternSprings.html' render={routerProps => <WesternSprings />} />
+          <Route exact path='/Music/ReviewEvanston.html' render={routerProps => <EvanstonReview />} />
+          <Route exact path='/Music/OKRMp3Player/MusicOKR.html' render={routerProps => <Old />} />
+          <Route exact path='/Music/ReviewChiTribune.html' render={routerProps => <ChicagoTribune />} />
+          <Route exact path='/Music/ReviewRickLibrarian.html' render={routerProps => <RickLibrarian />} />
 
           <Route exact path='/SciFi/Anvil.html' render={routerProps => <AnvilHome />} />
           <Route exact path='/SciFi/AnvilQuotes.html' render={routerProps => <AuthorQuotes />} />
