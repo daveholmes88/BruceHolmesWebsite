@@ -13,25 +13,26 @@ export default function Music() {
                     <h1>Music</h1>
                     <Row>
                         <Col sm={5}>
-                            <a href="/Music/LifeMp3Player/MusicLife.html">
+                            <a href="/Music/LifeMp3Player/MusicLife.html" >
                                 <Image
                                     src="/Music/LifeCover.jpg"
                                     alt="life"
                                     fluid='true'
+                                    style={{ height: '70%' }}
                                 />
                             </a>
                         </Col>
                         <Col sm={6}>
-                            <a href="/Music/OKRMp3Player/MusicOKR.html">
+                            <a href="/Music/OKRMp3Player/MusicOKR.html" >
                                 <Image
                                     src="/Music/OldKingReel.jpg"
                                     alt="old"
                                     fluid='true'
+                                    style={{ height: '70%' }}
                                 />
                             </a>
                         </Col>
                     </Row>
-                    <br></br>
                     <Row>
                         <Col>
                             <div style={{ width: '50%' }}>
