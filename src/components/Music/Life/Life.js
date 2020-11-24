@@ -35,35 +35,35 @@ export default function Life() {
         },
         {
             src: '/Music/LifeSongs/ElVien.mp3',
-            content: 'El Viento Del Diablo',
+            content: '7. El Viento Del Diablo',
         },
         {
             src: '/Music/LifeSongs/Family.mp3',
-            content: 'We Were a Family',
+            content: '8. We Were a Family',
         },
         {
             src: '/Music/LifeSongs/Home.mp3',
-            content: 'Home',
+            content: '9. Home',
         },
         {
             src: '/Music/LifeSongs/Stand.mp3',
-            content: 'Stand',
+            content: '10. Stand',
         },
         {
             src: '/Music/LifeSongs/PlagueShip.mp3',
-            content: 'Plague Ship',
+            content: '11. Plague Ship',
         },
         {
             src: '/Music/LifeSongs/Lose.mp3',
-            content: 'You Just Might Lose',
+            content: '12. You Just Might Lose',
         },
         {
             src: '/Music/LifeSongs/Shine.mp3',
-            content: 'Shine',
+            content: '13. Shine',
         },
         {
             src: '/Music/LifeSongs/WhenTheShip.mp3',
-            content: 'When The Ship Comes In',
+            content: '14. When The Ship Comes In',
         },
     ]
 
@@ -81,7 +81,7 @@ export default function Life() {
                                 fluid='true'
                             />
                             <br></br><br></br>
-                            <Card border='dark' style={{ height: '50%', overflow: 'auto' }}>
+                            <Card border='dark'>
                                 <>
                                     <AudioPlayerControlSprite />
                                     <AudioPlayer
