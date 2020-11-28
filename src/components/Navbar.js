@@ -19,6 +19,8 @@ export default function NavBar() {
                         <Nav.Link href="/Becoming.html"><h4>Square Dance Calling</h4></Nav.Link>
                     </Nav.Item>
                     <NavDropdown alignRight id='nav-dropdown' title={<span><i className="navbar-toggler-icon"></i></span>}>
+                        <NavDropdown.Item href='/Dance/DanceSocial.html'>Dance</NavDropdown.Item>
+                        <NavDropdown.Divider />
                         <NavDropdown.Item href="/SciFi/Anvil.html">Science Fiction</NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="/Music/Music.html">Music</NavDropdown.Item>

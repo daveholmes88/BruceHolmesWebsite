@@ -16,7 +16,15 @@ import HowToOrder from "./components/Becoming/HowToOrder";
 import Quotes from "./components/Becoming/Quotes";
 import SamplePages from "./components/Becoming/SamplePages";
 
-import Dance from "./components/Dance";
+import SocialDance from "./components/Dance/SocialDance";
+import Ballroom from "./components/Dance/Ballroom";
+import Barn from "./components/Dance/Barn";
+import EnglishCountry from "./components/Dance/EnglishCountry";
+import Folk from "./components/Dance/Folk";
+import Performance from "./components/Dance/Performance";
+import ScottishCountry from "./components/Dance/ScottishCountry";
+import Square from "./components/Dance/Square";
+import Try from "./components/Dance/Try";
 
 import MarathonSong from "./components/Triathlon/MarathonSong";
 import TriAthleteNutrition from "./components/Triathlon/TriAthleteNutrition";
@@ -98,7 +106,15 @@ function App() {
           <Route exact path='/Touch/TouchMailList.html' render={routerProps => <JoinMailList />} />
           <Route exact path='/Touch/TouchContact.html' render={routerProps => <ContactBruce />} />
 
-          <Route exact path='/dance' render={routerProps => <Dance />} />
+          <Route exact path='/Dance/DanceSocial.html' render={routerProps => <SocialDance />} />
+          <Route exact path='/Dance/DanceBallroom.html' render={routerProps => <Ballroom />} />
+          <Route exact path='/Dance/DanceBarn.html' render={routerProps => <Barn />} />
+          <Route exact path='/Dance/DanceECD.html' render={routerProps => <EnglishCountry />} />
+          <Route exact path='/Dance/DanceFolk.html' render={routerProps => <Folk />} />
+          <Route exact path='/Dance/DancePerformance.html' render={routerProps => <Performance />} />
+          <Route exact path='/Dance/DanceScottish.html' render={routerProps => <ScottishCountry />} />
+          <Route exact path='/Dance/DanceSquare.html' render={routerProps => <Square />} />
+          <Route exact path='/Dance/DanceWhich.html' render={routerProps => <Try />} />
 
           <Route exact path='/Feldenkrais.html' render={routerProps => <Feldenkrais />} />
           <Route exact path='/Feldenkrais/FeldenkraisHistory.html' render={routerProps => <History />} />
