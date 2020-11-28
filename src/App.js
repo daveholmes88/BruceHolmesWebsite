@@ -26,6 +26,10 @@ import ScottishCountry from "./components/Dance/ScottishCountry";
 import Square from "./components/Dance/Square";
 import Try from "./components/Dance/Try";
 
+import MovementQuotes from "./components/Movement/Quotes";
+import Aikido from "./components/Movement/Aikido"
+import Juggling from "./components/Movement/Juggling"
+
 import MarathonSong from "./components/Triathlon/MarathonSong";
 import TriAthleteNutrition from "./components/Triathlon/TriAthleteNutrition";
 import TriBike from "./components/Triathlon/TriBike";
@@ -124,6 +128,10 @@ function App() {
           <Route exact path='/Feldenkrais/FeldenkraisPrice.html' render={routerProps => <PricePurchase />} />
           <Route exact path='/Feldenkrais/FeldenkraisFreeLesson.html' render={routerProps => <FreeLesson />} />
           <Route exact path='/Feldenkrais/MosheFeldenkrais.html' render={routerProps => <Article />} />
+
+          <Route exact path='/Movement/Movement.html' render={routerProps => <MovementQuotes />} />
+          <Route exact path='/Movement/Aikido.html' render={routerProps => <Aikido />} />
+          <Route exact path='/Movement/Juggling.html' render={routerProps => <Juggling />} />
 
           <Route exact path='/Music/Music.html' render={routerProps => <Music />} />
           <Route exact path='/Music/MusicPhotos.html' render={routerProps => <MusicPhoto />} />

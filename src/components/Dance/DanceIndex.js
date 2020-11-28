@@ -4,7 +4,7 @@ import { Container, Col, Card, Image } from 'react-bootstrap'
 export default function DanceIndex() {
 
     return (
-        <Col sm={3}>
+        <Col sm={3} >
             <Card border='dark'>
                 <Container>
                     <a href='/Dance/DanceSocial.html'><h2>Social Dance</h2></a>
@@ -29,6 +29,6 @@ export default function DanceIndex() {
                     <br></br><br></br>
                 </Container>
             </Card>
-        </Col>
+        </Col >
     )
 }

@@ -33,7 +33,7 @@ export default function NavBar() {
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="/shopping">Shopping</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href='/movement'>Movement</NavDropdown.Item>
+                        <NavDropdown.Item href='/Movement/Movement.html'>Movement</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
             </Container>

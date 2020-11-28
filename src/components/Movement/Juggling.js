@@ -1,0 +1,32 @@
+import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+
+import MovementIndex from './MovementIndex'
+
+export default function Juggling() {
+
+    return (
+        <Container>
+            <Row>
+                <MovementIndex />
+                <Col>
+                    <h1>Juggling</h1>
+                    <br></br>
+                    <p>Everyone should know how to juggle. Think of it as a life skill. It's not that hard. In fact I'm about to teach you.</p>
+                    <p>I fell into it by accident. I was running through the Golden Gate Park in San Francisco one summer. I passed a sign that said, "Free Juggling Lessons" and stumbled to a halt. What did I have to lose? I retraced my steps. Ten minutes later I was juggling. I was really bad at it and couldn't go for long. But I was juggling. In the week that followed I had to spend several hours chasing balls around the room to get it right. But what a great thing to be able to do. I've always been glad I learned.</p>
+                    <p>I've taught juggling workshops. Of the hundreds of people who attended over the years, I only recall one who wasn’t able to succeed in the course of the two-hour session. (And even then I thought that with just a little more time we could have gotten there. I just hate it when learning has a time limit.) I had many others who showed up in class defining themselves as a klutz and left as a juggler. I've always wanted to believe those two definitions are incompatible. If you can juggle, you don't get to label yourself a klutz.</p>
+                    <p>So here's how you do it. Get three balls. Old tennis balls will do. Best to strike in the moment rather than plan on going out and buying fancy balls.</p>
+                    <p>Start with one ball. Hands are out in front of you, palms up, forearms parallel to the ground. Throw the ball in an arc to the other hand. This is the hard part. Getting this motion solid and reliable is the key to juggling. For now you want the ball to rise to about eye level as it arcs from one hand to the other. You will need to be accurate. You want the ball to land in the other hand without it having to move much. You don't want a big motion in the throwing hand either. Go for a flick of the wrist to the inside and sort of popping it out as  your hand opens rather than a big arm motion. Toss the ball back and forth until you've got something fairly reliable.</p>
+                    <p>In what follows, see if you can stay relaxed and breathe. This next step is what will make you a juggler. Get the second ball. One ball in each hand. You will need to throw one of the balls to the other hand. We'll call that the first ball. As that first ball drops down into the other hand, the second ball in that waiting hand will have to be thrown back to the now empty hand, right? Makes sense, doesn't it? And you'll obviously need to be able to catch that first ball that's descending into the hand that's throwing the second ball back. Letting that first ball fall to the ground won't impress many people. This is the busy part of juggling. That one hand has to both throw the second ball it's holding and catch the first ball that's been thrown to it. That maneuver is called the throw-catch. You throw the ball you're holding and then catch the ball that's descending.</p>
+                    <p>Has it occurred to you that the balls might collide in mid-air? This would not be good. So we need a traffic pattern to avoid collisions. There are different ways you can do it. I'm going to suggest that you throw the ball up the inside and catch the ball to the outside. This means that when the first throw is done, you want the ball to land a little bit to the outside of where the other hand waits. When the waiting hand throws the second ball back it will move the wrist a little bit to the inside to do the throw, aiming a little bit to the outside of the waiting hand. So here's what the throw-catch looks like. Your wrist pops the ball up the inside track and then rotates to the outside to catch the ball that's descending. One secret to juggling is realizing you have more time than you think. Wait till the ball is actually dropping down toward the hand before you begin the throw. In all of this, be willing to drop the ball. You're going to anyway, so be OK with it.</p>
+                    <p>Once you can actually throw one ball and catch the other, shift your focus and see if you can catch the second ball as it descends into the originating hand.</p>
+                    <p>Can you do it? If so, congratulations. Only problem is you've got to be able to do that going to either hand. So if only one hand has learned it, switch the hand you start with and try it to the other side. Stop reading and get to work.</p>
+                    <p>If you've gotten this far, you now have all the skills necessary to being a juggler. You just have to get lucky and do it. Juggling is simply a series of throw-catches. One throw-catch does not a juggler make. But if you can extend it to two in a row, you've crossed over the line.</p>
+                    <p>Except we need to add the third ball. You'll want to start with two balls in one hand and one in the other. Your first throw is from the hand with two balls. You'll keep one tucked in the palm of the hand and throw the other. Then as that ball descends on the other side, you do your throw-catch. As that second throw descends, you'll do another throw-catch. And then another. And then another. Who are we kidding? By now the balls are all over the floor. But even the best jugglers drop balls. If you can do two in a row, you're a member of the fraternity. It's just a matter of time.</p>
+                    <p>I think heavier balls are easier to use than something light like a tennis ball. The bean bags you see in the store work fine and have the added advantage of not rolling when they're dropped. But ultimately, balls are cooler. Once you've got the basics down there are all sorts of ways to expand your skills. But this is enough to get you started.</p>
+                    <p>If you're still sitting on your duff and trying to visualize this rather than actually doing it, you're still not a juggler. But you've just passed a sign that says, "Free juggling lessons." What do you have to lose?</p>
+                </Col>
+            </Row>
+        </Container>
+    )
+}
