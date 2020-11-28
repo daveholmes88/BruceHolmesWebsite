@@ -50,7 +50,7 @@ export default function Home() {
                         </a>
                     </Row>
                     <Row className="justify-content-end">
-                        <a href='/twocents'>
+                        <a href='/TwoCents/TwoCents.html'>
                             <Card>
                                 <Card.Img src="MenuTwoCents.jpg" alt="Card Image" />
                             </Card>

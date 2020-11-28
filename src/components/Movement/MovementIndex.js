@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Col, Card, Image } from 'react-bootstrap'
+import { Container, Col, Card } from 'react-bootstrap'
 
 export default function MovementIndex() {
 

@@ -25,7 +25,7 @@ export default function NavBar() {
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="/Music/Music.html">Music</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="/twocents">Two Cents</NavDropdown.Item>
+                        <NavDropdown.Item href="/TwoCents/TwoCents.html">Two Cents</NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="/Touch/TouchMailList.html">Contact</NavDropdown.Item>
                         <NavDropdown.Divider />

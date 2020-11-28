@@ -90,7 +90,20 @@ import SwitchTime from "./components/SciFi/SwitchTime"
 
 import Shopping from "./components/Shopping"
 
-import TwoCents from "./components/TwoCents"
+import TwoCents from "./components/TwoCents/TwoCents"
+import BathroomLaws from "./components/TwoCents/BathroomLaws"
+import Covid from "./components/TwoCents/Covid"
+import DeathWithDignity from "./components/TwoCents/DeathWithDignity"
+import Energy from "./components/TwoCents/Energy"
+import GayWedding from "./components/TwoCents/GayWedding"
+import Health from "./components/TwoCents/Health"
+import Marines from "./components/TwoCents/Marines"
+import Prius from "./components/TwoCents/Prius"
+import Prostitution from "./components/TwoCents/Prostitution"
+import Romney from "./components/TwoCents/Romney"
+import Smoking from "./components/TwoCents/Smoking"
+import WindowsMac from "./components/TwoCents/WindowsMac"
+import Wisdom from "./components/TwoCents/Wisdom"
 
 
 function App() {
@@ -181,7 +194,20 @@ function App() {
           <Route exact path='/Triathlon/TriWhy.html' render={routerProps => <TriWhy />} />
           <Route exact path='/Triathlon/TriYou.html' render={routerProps => <TriYou />} />
 
-          <Route exact path='/twocents' render={routerProps => <TwoCents />} />
+          <Route exact path='/TwoCents/TwoCents.html' render={routerProps => <TwoCents />} />
+          <Route exact path='/TwoCents/TwoBathroomLaws.html' render={routerProps => <BathroomLaws />} />
+          <Route exact path='/TwoCents/TwoCovid19.html' render={routerProps => <Covid />} />
+          <Route exact path='/TwoCents/TwoDeath.html' render={routerProps => <DeathWithDignity />} />
+          <Route exact path='/TwoCents/TwoEnergy.html' render={routerProps => <Energy />} />
+          <Route exact path='/TwoCents/TwoGayWedding.html' render={routerProps => <GayWedding />} />
+          <Route exact path='/TwoCents/TwoHealthTips.html' render={routerProps => <Health />} />
+          <Route exact path='/TwoCents/TwoMarines.html' render={routerProps => <Marines />} />
+          <Route exact path='/TwoCents/TwoPrius.html' render={routerProps => <Prius />} />
+          <Route exact path='/TwoCents/TwoProstitution.html' render={routerProps => <Prostitution />} />
+          <Route exact path='/TwoCents/TwoRomney.html' render={routerProps => <Romney />} />
+          <Route exact path='/TwoCents/TwoSmoking.html' render={routerProps => <Smoking />} />
+          <Route exact path='/TwoCents/TwoWindowsVsMac.html' render={routerProps => <WindowsMac />} />
+          <Route exact path='/TwoCents/TwoWisdom.html' render={routerProps => <Wisdom />} />
 
           <Route exact path='/shopping' render={routerProps => <Shopping />} />
         </Switch>
