@@ -8,7 +8,7 @@ export default function Home() {
 
     return (
         <Container>
-            <Row>
+            <Row className="justify-content-center">
                 <FeldenkraisIndex />
                 <Col>
                     <FeldenkraisTitle />
@@ -19,13 +19,10 @@ export default function Home() {
                         Sometimes what is needed is to let go of the old restrictions we've placed on ourselves. Poor use of the body can happen because we learned poorly in the beginning (it is, after all, rather hit and miss as we're growing up) or a result of restrictions we adopted because they made sense at the time. If you hurt yourself your body tightens up to protect the damaged location.
                         The brain puts that holding pattern on automatic. Problem is, when the injury heals, the holding pattern may remain long past its usefulness.
                         </p>
-
-
-                    <br></br>
                     <Row>
                         <Col>
                             <div style={{ width: '50%' }}>
-                                <Image src='/Feldenkrais/MosheWorking.jpg' fluid='true' align='left' id='moshe-pic' class='picture' />
+                                <Image src='/Feldenkrais/MosheWorking.jpg' fluid='true' align='left' id='moshe-pic' className='picture' />
                             </div>
                             <div class='pull-right'>
                                 <p>
@@ -36,7 +33,6 @@ export default function Home() {
                             </div>
                         </Col>
                     </Row>
-                    <br></br>
                     <p>
                         Included in these pages you'll find a list of the lessons, quotes from both the press and users of the lessons, a sample free feldenkrias lesson, and a few words about the price history behind the lessons. If you have any questions, feel free to drop me a note at Bruce at BruceTHolmes.com.
                             </p>
