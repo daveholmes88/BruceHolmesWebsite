@@ -11,7 +11,7 @@ export default function NavBar() {
                         <Nav.Link href="/"><h1>Bruce Holmes</h1></Nav.Link>
                     </Nav.Item>
                 </Nav>
-                <Nav className="mr-sm-2">
+                <Nav className="mr-xs-2">
                     <Nav.Item>
                         <Nav.Link href="/Feldenkrais.html"><h4>Feldenkrais</h4></Nav.Link>
                     </Nav.Item>

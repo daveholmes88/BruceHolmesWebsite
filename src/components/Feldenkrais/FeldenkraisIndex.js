@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Card, Image, Container, Row } from 'react-bootstrap'
+import { Col, Card, Image, Container } from 'react-bootstrap'
 
 export default function FeldenkraisIndex() {
 
