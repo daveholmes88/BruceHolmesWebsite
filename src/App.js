@@ -88,7 +88,10 @@ import FanQuotes from "./components/SciFi/FanQuotes"
 import FirstChapter from "./components/SciFi/FirstChapter"
 import SwitchTime from "./components/SciFi/SwitchTime"
 
-import Shopping from "./components/Shopping"
+import Shopping from "./components/Shopping/Shopping"
+import ShoppingMusic from "./components/Shopping/Music"
+import ShoppingTShirts from "./components/Shopping/TShirts"
+import ShoppingSciFi from "./components/Shopping/SciFi"
 
 import TwoCents from "./components/TwoCents/TwoCents"
 import BathroomLaws from "./components/TwoCents/BathroomLaws"
@@ -209,7 +212,10 @@ function App() {
           <Route exact path='/TwoCents/TwoWindowsVsMac.html' render={routerProps => <WindowsMac />} />
           <Route exact path='/TwoCents/TwoWisdom.html' render={routerProps => <Wisdom />} />
 
-          <Route exact path='/shopping' render={routerProps => <Shopping />} />
+          <Route exact path='/Shop/ShopShipping.html' render={routerProps => <Shopping />} />
+          <Route exact path='/Shop/ShopSciFi.html' render={routerProps => <ShoppingSciFi />} />
+          <Route exact path='/Shop/ShopMusic.html' render={routerProps => <ShoppingMusic />} />
+          <Route exact path='/Shop/ShopTShirts.html' render={routerProps => <ShoppingTShirts />} />
         </Switch>
       </div>
     </Router>

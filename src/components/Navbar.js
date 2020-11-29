@@ -31,9 +31,11 @@ export default function NavBar() {
                         <NavDropdown.Divider />
                         <NavDropdown.Item href='/Triathlon/TriYou.html'>Triathlon</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="/shopping">Shopping</NavDropdown.Item>
+                        <NavDropdown.Item href="/Shop/ShopShipping.html">Shopping</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href='/Movement/Movement.html'>Movement</NavDropdown.Item>
+                        <NavDropdown.Item href='/Movement/Aikido.html'>Aikido</NavDropdown.Item>
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item href='/Movement/Juggling.html'>Juggling</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
             </Container>
