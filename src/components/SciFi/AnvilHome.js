@@ -13,7 +13,13 @@ export default function SciFi() {
                     <Row>
                         <Col>
                             <div style={{ width: '50%' }}>
-                                <Image src='/AnvilCover.jpg' fluid='true' align='left' id='anvil-cover' className='picture' />
+                                <Image
+                                    src='/AnvilCover.jpg'
+                                    fluid='true'
+                                    align='left'
+                                    alt='anvil-cover'
+                                    className='picture'
+                                />
                             </div>
                             <div class='pull-right'>
                                 <h1 className='text-center'>Anvil of the Heart</h1>
