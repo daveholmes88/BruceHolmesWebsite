@@ -11,6 +11,7 @@
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.5.3",
     "history": "^5.0.0",
+    "live-server": "^1.2.1",
     "react": "^16.14.0",
     "react-adaptive-image": "^1.8.0",
     "react-audio-player": "^0.14.0",
