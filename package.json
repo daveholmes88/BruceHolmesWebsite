@@ -2,6 +2,9 @@
   "name": "bruceholmeswebsite",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "12.11.1"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -19,10 +22,12 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "start": "node index.js",
+    "dev": "react-scripts start",
+    "start": "serve -s build",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
