@@ -26,8 +26,6 @@ export default function TriathlonIndex() {
                     <br></br>
                     <a href='/Triathlon/TriOpenWater.html'>Open Water Swims</a>
                     <br></br>
-                    <a href='/Triathlon/TriOpenWater.html'>Tansitions?????</a>
-                    <br></br>
                     <a href='/Triathlon/TriWarmup.html'>Warmup/Cooldown</a>
                     <br></br>
                     <a href='/Triathlon/TriWet.html'>Wetsuits</a>
@@ -70,7 +68,7 @@ export default function TriathlonIndex() {
                     <br></br>
                     <a href="TriWarning.html">Warning Label</a>
                     <br></br>
-                    <a href="Marathon/MarathonSong.html" target="_self">Marathon</a>
+                    <a href="Marathon/MarathonSong.html" target="_self">Marathon (the song)</a>
                     <br></br>
                 </Container>
             </Card>
