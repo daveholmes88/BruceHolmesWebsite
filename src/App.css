@@ -1,0 +1,38 @@
+#nav-dropdown:after { display: none }
+
+#home-carousel img{
+    width: auto;
+    height: 700px;
+    max-height: 700px;
+    margin: auto;
+    display:block
+}
+
+#jumbotron {
+	margin-bottom: 0;
+	background: url('./HSStool.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 1400px */
+}
+
+.picture {
+    padding-right: 10px;
+}
+
+.quote {
+    color: blue
+}
+
+.carousel {
+    max-height: '10%';
+    overflow: hidden;
+  }
+
+.musicImages {
+    max-height: 335px;
+    object-fit: cover;
+    width: '100%';
+    overflow: auto;
+}
